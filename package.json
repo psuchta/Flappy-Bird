@@ -1,0 +1,25 @@
+{
+  "name": "flappy_bird_static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/pawel9512/flappybird.git"
+  },
+  "author": "Paweł Suchta",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pawel9512/flappybird#readme"
+}
