@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird </title>
+    <script src="http://cdn.jsdelivr.net/phaser/2.6.2/phaser.min.js"></script>
+    <script type="text/javascript" src="thegame.js" about=""></script>
+    <script type="text/javascript" src="boot.js"about=""></script>
+    <script type="text/javascript" src="preload.js"about=""></script>
+    <script type="text/javascript" src="menu.js"about=""></script>
+
+    <script>
+        (function(){
+            var game = new Phaser.Game(576,511, Phaser.AUTO, 'Flappy Bird');
+            game.state.add("Boot",boot);
+            game.state.add("Preload",preload);
+            game.state.add("TheGame",theGame);
+            game.state.add("Menu",menu);
+            game.state.start("Preload");
+        }) ();
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
